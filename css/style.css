@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/* Formatações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+    padding: 0px;
+   background:  linear-gradient(219.22deg, rgba(6, 148, 251, 0.59) 16.15%, rgba(32, 121, 140, 0.63) 50%, rgba(29, 63, 150, 0.81) 81.77%);
+
+
+}
+
+/* Estilizando o cabeçalho */
+
+header {
+    background-color: rgba(37, 36, 36, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+
+.logo {
+    height: 200px;
+}
+
+/* Navegação do site */
+nav a {
+    font-family: 'Cabin', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    gap: 30px;
+}
+
+nav a:hover {
+    color:rgb(69, 97, 122) ;
+
+}
+/* barra de pesquisa */
+
+.barra_de_pesquisa {
+    background-color: rgba(249, 236, 236, 0.171);
+    padding: 5px 11px;
+    border: 0px;
+    border-radius: 7px;
+    width: 350px;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.barra_de_pesquisa::placeholder {
+    color: #ffff;
+}
+
+.busca {
+    height: 20px;
+
+}
+
+/* Ícones de produtos */
+.favoritos {
+    height: 20px;
+}
+
+.sacola {
+    height: 20px;
+}
+
+.perfil {
+    height: 20px;
+}
+
+.compras {
+    display: flex;
+    gap: 11px;
+}
+
+/* Conteúdo principal*/
+
+main {
+
+    margin-bottom: 200px;
+
+}
+
+
+.slide {
+    width: 100%;
+    height: 720px;
+    
+
+
+}
+
+/* Categorias dos produtos */
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-weight: 400px;
+    padding: 40px;
+
+}
+
+.categorias-produtos img{
+    border-radius: 20px;
+}
+
+.categorias-produtos img:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(57, 84, 202, 0.842), 0 6px 20px 0 rgba(43, 80, 245, 0.842);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+    
+/* Produtos */
+
+
+.caixa {
+    background-color: rgba(37, 36, 36, 1);
+
+
+
+
+}
+
+.vitrine {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+
+
+
+div.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(57, 84, 202, 0.842), 0 6px 20px 0 rgba(43, 80, 245, 0.842);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+div.card .botao-comprar {
+ 
+    padding-left: 54px;
+    
+}
+
+
+
+
+.botão_produtos {
+    width: 140px;
+    height: 35px;
+    background-color: rgba(0, 23, 122, 1);
+    font-family: 'Cabin', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    
+
+
+}
+
+.botão_produtos:hover {
+    background-color: rgb(4, 11, 42);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+
+
+
+/* Página - Quem somos */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cabin', sans-serif;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+   
+    
+
+
+}
+
+#container p{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+input {
+
+    height: 35px;
+    width: 350px;
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: rgba(205, 205, 205, 0.54);
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+input.submit {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 23, 122, 1);
+    font-family: 'Cabin', sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    width: 160px;
+    cursor: pointer;
+
+
+}
+
+.botoes{
+    padding-left: 100px;
+    
+}
+
+input.submit:hover{
+    background-color: rgb(4, 11, 42);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.sobre-a-empresa {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.label-quemSomos{
+    display: flex;
+    margin-top: 5px;
+    color: #fff;
+}
+
+/* Rodapé */
+
+footer {
+    display: flex;
+    background-color: rgba(37, 36, 36, 1);
+    color: #ffff;
+    justify-content: space-around;
+    font-family: 'Cabin', sans-serif;
+    padding: 20px;
+    font-size: 15px;
+    
+
+
+
+}
+
+
+.mapa-do-site a{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mapa-do-site a:hover{
+    color:rgb(69, 97, 122) ;
+
+}
+
+
+.suporte a{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+}
+
+.suporte a:hover{
+    color:rgb(69, 97, 122) ;
+}
+
+
+.redes {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    
+}
+
+
+.instagram {
+    height: 25px;
+
+}
+
+.facebook {
+    height: 25px;
+}
+
+.whatsapp {
+    height: 25px;
+    
+
+}
+
+@media (max-width: 1000px){
+
+
+
+    .barra_de_pesquisa{
+        display: none;
+    }
+
+    .categorias{
+        flex-wrap: wrap;
+    }
+
+    
+
+ 
+}
+
+@media (max-width: 800px){
+
+    nav a{
+       flex-wrap: wrap;
+       margin-left: 30px;
+    }
+
+    footer{
+        display: flex;
+        gap: 15px;
+    }
+
+   
+}
+
+@media (min-width: 100px){
+
+    .vitrine{
+        flex-wrap:wrap ;
+    }
+
+
+}
